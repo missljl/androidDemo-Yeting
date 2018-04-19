@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1111.yetingapp.MyShezhiActivity"
+  android:background="@drawable/fm_run_song_bg"
+    >
+
+
+    //导航头布局
+    <RelativeLayout
+        android:id="@+id/ly_top_bar11"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2">
+
+
+        <Button
+            android:id="@+id/backbtn1"
+
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:background="@layout/back_btn_lashen"
+            android:onClick="click"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="#EDEDED"
+            android:id="@+id/view2" />
+
+        <TextView
+            android:id="@+id/txt_topbar11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="我的收藏"
+            android:textColor="#FAFFF0"
+            android:textSize="17dp"
+
+            android:layout_alignBaseline="@+id/backbtn1"
+            android:layout_alignBottom="@+id/backbtn1"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:id="@+id/listview_soucang"
+        android:layout_width="match_parent"
+        android:layout_height="499dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/ly_top_bar11" />
+    //下面按钮布局
+    <LinearLayout
+        android:id="@+id/btnslinear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="click"
+            android:background="#000000"
+            android:alpha="0"
+            android:text="全选" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="click"
+            android:alpha="0"
+           android:textColor="#808080"
+            android:background="#000000"
+            android:text="删除" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:background="#00000000"
+        android:text="多选"
+        android:layout_above="@+id/listview_soucang"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+    <!--<TextView-->
+        <!--android:id="@+id/textView5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="我喜欢的歌曲"-->
+        <!--android:textSize="20dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:gravity="center"-->
+
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentTop="true" />-->
+</RelativeLayout>

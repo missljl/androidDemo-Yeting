@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">夜听故事汇</string>
+    <string name="tab_menu_alert">夜听</string>
+    <string name="tab_menu_profile">音乐</string>
+    <string name="tab_menu_pay">故事</string>
+    <string name="tab_menu_setting">设置</string>
+    <string name="title_activity_my_shezhi">MyShezhiActivity</string>
+    <string name="title_activity_hezuo">Hezuo</string>
+    <string name="title_activity_lunger_image">LungerImage</string>
+
+
+</resources>

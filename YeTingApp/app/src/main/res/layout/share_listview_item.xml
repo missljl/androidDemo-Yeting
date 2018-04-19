@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox_operate_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="6dp"
+            android:visibility="gone" />
+
+        <com.example.a1111.yetingapp.Myimageview
+
+            android:id="@+id/imageView_share"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/name_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:textSize="18sp"
+            android:paddingRight="20dp"
+            android:duplicateParentState="true"
+            android:paddingLeft="5dp"
+            android:gravity="left"
+
+            />
+
+        <!--<TextView-->
+        <!--android:id="@+id/says"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="8px"-->
+        <!--android:textColor="#B4B4B9"-->
+        <!--android:textSize="14sp" />-->
+
+    </LinearLayout>
+
+    </LinearLayout>
